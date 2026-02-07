@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzPlay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div id="frontPage">
+        <h1 id="nameOfPage">EzPlay</h1>
+        <button onclick="openMoney()" id="moneyBut">Credit card</button>
+        <input type="text" readonly id="moneyBar">
+        <h1 id="moneySig">$</h1>
+    </div>
+</header>
+<body>
+    <div id="mainMoneyTransfer">
+        <input type="text" id="inputMoney">
+        <button type="submit" id="butMoney" onclick="transfer()">Transfer</button>
+        <img src="credit-card-11530978339malxaqcd71-removebg-preview.png" alt="" id="imgCredit">
+        <h1 id="moneySigg">$</h1>
+    </div>
+    <div id="game">
+        
+        <div id="topRow">
+            <h3>Enter bet amount:</h3>
+            <input type="text" id="betAmount">
+            <div id="mainGameStage">Casino</div>
+            <button  onclick="playGame()" style="padding-left: 80px; padding-right: 80px; border-radius: 100px; background-color: rgba(255, 0, 0, 0.816); font-size: 20px; font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">spin</button>
+        </div>
+        
+        <div id="numbers">
+            <h4 id="number1">0</h4>
+            <h4 id="number2">0</h4>
+            <h4 id="number3">0</h4>
+        </div>
+        
+    </div>
+    
+     
+</body>
+<footer>
+    
+</footer>
+<script src="script.js"></script>
+</html>

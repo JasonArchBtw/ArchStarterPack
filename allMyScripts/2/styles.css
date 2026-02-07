@@ -1,0 +1,198 @@
+#nameOfPage {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(44, 55, 69);
+    color: white;
+    padding: 5px;
+    padding-left: 400px;
+    font-size: 35px;
+    margin: 0px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: rgb(41, 52, 65);
+    box-shadow: 0px 10px 20px 0px rgb(14, 17, 21)    
+}
+body {
+    margin: 0px;
+    background-color: rgb(31, 39, 49);
+}
+#moneyBut {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(44, 55, 69);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 400px;
+    position: fixed;
+    right: 10px;
+    top: 9px;
+    border-style: none;
+    transition: 0.5s;
+    box-shadow: 0px 5px 10px 0px rgb(14, 17, 21)    
+}
+
+#moneyBut:hover {
+    background-color: rgb(27, 33, 41);
+    translate: 5px;
+}
+#moneyBut:active {
+    color: rgb(70, 88, 110);
+    transition-duration: 0.1s;
+}
+
+#moneyBar {
+    position: fixed;
+    top: 10px;
+    right: 550px;
+    top: 10px;
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(31, 39, 49); 
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+    box-shadow: 0px 5px 10px 0px rgb(14, 17, 21)
+}
+
+#moneySig {
+    position: fixed;
+    top: 10.5px;
+    right: 745px;
+    color: white;
+    font-size: 15px;
+}
+
+#mainMoneyTransfer {
+    margin-left: 400px;
+    margin-right: 400px;
+    position: fixed;
+    top: 600px;
+}
+#inputMoney {
+    height: 40px;
+    width: 250px;
+    position: fixed;
+    left: 860px;
+    top: 945px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(44, 55, 69);
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    box-shadow: 0px 10px 20px 0px rgb(14, 17, 21)
+
+}
+#butMoney {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(44, 55, 69);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    transition: 0.5s;
+    position: fixed;
+    left: 1140px;
+    top: 949px; 
+    box-shadow: 0px 10px 20px 0px rgb(14, 17, 21)
+    
+}
+#butMoney:hover {
+    background-color: rgb(27, 33, 41);
+    translate: 5px;
+}
+#butMoney:active {
+    color: rgb(70, 88, 110);
+    transition-duration: 0.1s;
+}
+
+#imgCredit {
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 600px;
+    left: 372px;
+    
+}
+
+
+#moneySigg {
+    position: fixed;
+    left: 869px;
+    top: 941px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#game {
+    text-align: center;
+    background-color: #2c3745;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    border-style: solid;
+    border-color: #425267;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0px rgb(14, 17, 21)
+}
+
+#numbers {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 95px;
+}
+#betAmount {
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(31, 39, 49); 
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 60px;
+    box-shadow: 0px 5px 10px 0px rgb(14, 17, 21)
+
+}
+
+#mainGameStage {
+    padding-top: 65px;
+    margin-top: -10px;
+    
+}
+
+#topRow {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+#button3 {
+    transition: 0.5s;
+}
+
+#button3:hover {
+    background-color: rgb(255, 255, 255);
+    translate: 5px;
+}
+#button3:active {
+    color: rgb(70, 88, 110);
+    transition-duration: 0.1s;
+}
+
+
+

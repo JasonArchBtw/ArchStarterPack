@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Shopping Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">ShopLogo</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Cart <i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="container">
+                <h1>Welcome to Our Shop</h1>
+                <p>Discover the best products at unbeatable prices.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+        <section id="products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p class="price">$10.00</p>
+                        <button class="add-to-cart" data-product="Product 1" data-price="10">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Product 2">
+                        <h3>Product 2</h3>
+                        <p class="price">$20.00</p>
+                        <button class="add-to-cart" data-product="Product 2" data-price="20">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Product 3">
+                        <h3>Product 3</h3>
+                        <p class="price">$30.00</p>
+                        <button class="add-to-cart" data-product="Product 3" data-price="30">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Professional Shopping Website | Designed by You</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
